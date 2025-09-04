@@ -4,6 +4,9 @@ using namespace std;
 
 int sumArray(const vector<int>& arr) {
     // TODO: complete the function as per instructions
+    int sum=0;int n = arr.size();
+    for (int i=0 ; i<= n ; ++i) sum += arr[i];
+    return sum;
     
 }
 
